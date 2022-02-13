@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <h1><center>On this page we will show the different types of formatting and styling that HTML offers natively<br> without an external CSS document.</center></h1>
+    
+</header>
+
+<hr>
+<br>
+<br>
+
+<body>
+    <p>
+    <center>
+        HTML offers some very basic formatting options,<br> 
+        Normally these options are used when you want a specific formatting to persist, reguardless of what the external CSS sheet may say.
+    </center>
+    </p>
+    <br>
+    <br>
+    <br>
+
+    <pre>
+        Some of these options include making the text preformatted or <q>preserved.</q>
+        this segment is using the <q>pre</q> tag instead of paragraph, <q>p</q> or line break <q>br</q>
+        What this does is preserve the formatting of the text, as it is written, in the HTML document. 
+        so that you can create multiple lines of text without having to use the <q>br</q> or <q>p</q> tags.
+        all spacing  ...      
+                        ... 
+                           ...  and indenting
+                              ... 
+                                 ... or any other in-document formatting
+                                    ...
+                                       ... is preserved as it is layed out in your HTML document. 
+
+        Normally things like line indenting, line breaks, spacing between lines, any oth those sorts of things,
+        are ignored unless a specific tag or CSS format is declared. the <q>pre</q> tag works differently. 
+
+        this has its advantages at times.
+
+        <b>Bold</b> 
+        <i>Italicized</i> 
+        <em>Emphasized</em> 
+        <mark>Marked or highlighted</mark>
+        <small>Small</small> 
+        <del>Deleted</del> aka stricken,
+        Text can be <ins>Inserted</ins> into an existing line
+        or made into either <sub>subscript</sub> or <sup>superscript</sup>
+        <q>Text can be quotated</q> with simple quotation marks
+    </pre>
+
+    <p>
+        here is an example of a blockquote.
+    </p>
+
+        <blockquote>
+            text can be blockquoted, <br>
+            wich turns it into a text block <br>
+            that is offset from the surrounding text. <br> 
+            this can be especially useful for citing <br>
+            large chunks of text from another site. <br>
+        </blockquote>
+
+    <p>
+         something else that can be used is the "cite" tag that can be put into another tag<br>
+         such as "blockquote" to add a link to where the quote was taken from. <br>
+         the difference between this and an href is it is not visible in the main webpage, <br>
+         but it can be seen inside the HTML document. It always required to cite any work,<br>
+         be it code or text copied directly from another page. To fail to do so is Plagarism.<br>
+    </p>
+
+    <p>
+        speaking of citing, you can also use the "cite" tag on its own to show the name <br>
+        of a pice of creative work, typically it will italicise the text wrapped in this tag. <br>
+        <cite> 
+            an example of what the "cite" tag does<br>
+        </cite>
+    </p>
+    
+    
+    <p>
+        another text formatting feature is to make the text <strong>Strong</strong>. Strong is different from bold in that it is intended to be used for text that is more important than what is around it. 
+    </p>
+
+    <p>
+        Outside of formatting there is also styling.<br>
+        Some styling options include font color, background, font type, font size, <br>
+        these are actually css formatting options, they're just inserted directly into the HTML tags usint the <q>style</q> attribute instead of being assigned ID's that are targeted by an external CSS sheet.
+        <p style="color:red">Red Text</p>
+        <p style="font-family: sans-serif;">Sans Serif Font Family</p>
+        <p style="font-size:xx-large">XL font size</p>
+        <p style="font-size:xx-Small">Extra small font size</p>
+        <p style="text-align:center">centered paragraph</p>
+        <p style="text-align:right">Paragraph aligned to the right</p>
+        <p style="text-align:left">Text aligned to the left, this is the default alignment of text inside an HTML document however,<br>
+        If you should say have an entire section of text that is formatted a specific way, maybe centered, and you want just one line or word<br>
+        to break that formatting pattern this tag can be used to override any CSS formatting that you may have on an external Style Sheet.
+    </p> 
+    </p>
+
+</body>
+
+<br>
+<hr>
+<br>
+
+<footer>
+    <p>
+        Created By: Vincent Teune
+    </p>
+    <p>Last Updated February 2022</p>
+</footer>
+</html>

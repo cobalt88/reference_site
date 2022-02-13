@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        
+    </header>
+<body>
+
+
+<h1><center> Java Script Experiments</center></h1>
+
+<hr>
+<h2><center>Section 1: On Click Events and buttons.</center></h2>
+    <p>
+        In this first section the javascript will all be in line with HTML and CSS components. <br>
+        This is an easy way to incorporate some basic JS elements that ony affect one target and dont require a block of JS.
+    </p>
+
+<h3>Example 1: changing the message that is displayed after clicking a button.</h3>
+
+    <p>note: the change only works once without refreshing the page. If you click the button the message will change, however<br>
+        the button will be inert untill the page is refreshed.
+    </p>
+
+    <p id="Demo_1">This message should change after clicking the button. This button is now inert</p>
+
+    <button type="button" onclick='document.getElementById("Demo_1").innerHTML = "This message should appear after clicking the button" '>
+        Click here to change text</button>
+
+<h3>Example 2, using buttons to change an HTML element</h3>
+
+    <p> 
+        In this example the button click will change an HTML attribute.<br>
+        Specifically it will change the source (src) of the image that is displayed.
+    </p>
+
+    <button type="button" onclick="document.getElementById('Image_Example_1').src='Unicorn_1.png'">Unicorn!</button>
+    <img id="Image_Example_1" src="Dragon_1.png" style="width: 200px;">
+    <button type="button" onclick="document.getElementById('Image_Example_1').src='Dragon_1.png'">Dragon!</button>
+
+<h3>Example 3, Changing an HTML style With Buttons</h3>
+
+    <p id="Demo_2">
+        In this example, the buttons will change the style of the text inside of this paragraph.
+    </p>
+
+    <button type="button" onclick="document.getElementById('Demo_2').style.fontSize='50px'">Make It Huge!</button>
+    <button type="button" onclick="document.getElementById('Demo_2').style.fontSize='10px'">Make It Tiny!</button>
+    <button type="button" onclick="document.getElementById('Demo_2').style.fontSize='15px'">Make It Normal</button>
+    <button type="button" onclick="document.getElementById('Demo_2').style.color='red'">Make It Red</button>
+    <button type="button" onclick="document.getElementById('Demo_2').style.color='black'">Make It Black</button>
+
+    <p>
+        This next button will make the targeted element disapear all together by changing the display style.
+    </p>
+
+    <button type="button" onclick="document.getElementById('Demo_2').style.display='none'">Hide Target</button>
+
+    <p>
+        You can also show a hidden element
+    </p>
+
+    <p id="Demo_3" style="display:none">This message should appear if the button worked</p>
+
+    <button type="button" onclick="document.getElementById('Demo_3').style.display='block'">Click Here To Display Message</button>
+
+    <br>
+    <hr>
+    
+<h2><center>Section 2: Java Script Code BLocks Using The Script Tag</center></h2>
+
+    <p>
+        In this section the JavaScript will be arranged in blocks using the Script tag.
+    </p>
+
+</body>
+</html>
