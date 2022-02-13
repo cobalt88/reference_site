@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+    <head>
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+            table, th, td {
+                border: 2px solid black;
+                width: 1500px ; 
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+        </style>
+
+        <h1 class="center">Reference list of HTML tags</h1>
+        <cite>Most of this information was taken directly from W3 Schools <a href="https://www.w3schools.com/TAGS/default.ASP" target="blank" rel="noopener nonreferrer">HTML tags ordered aphabetically</a> page.</cite>
+    </head>
+
+        <br>
+        <hr>
+        <br>
+
+    <body>
+
+        <table class="center">
+            <caption>HTML Tag Elements</caption>
+
+            <tr>
+                <th style="width:15%">
+                    Tag
+                </th>
+                <th>
+                    Definition
+                </th>
+                <th>
+                    Example
+                </th style="width:25%">
+            </tr>
+            
+            <tr>
+                <td>
+                    &lt;!--...--&gt;
+                </td>
+                <td>
+                    Defines a comment, replace ... with whatever you want to write as a comment
+                </td>
+                <td>
+                    Look at the page source to see an example<!--this one does not appear on a webpage, thats the whole point of it. so if you need to type out a note or a message, or even a simple reminder to do something later, use a comment line-->
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;!DOCTYPE&gt;
+                </td>
+                <td>
+                    Defines the document type
+                </td>
+                <td>
+                    N/A, look at the top of any HTML document and this is the first item you will see
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;a&gt;
+                </td>
+                <td>
+                    Defines a hyperlink, ex. &lt;a href="www.google.com"&gt;
+                </td>
+                <td>
+                    <a href="www.google.com">Google</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;abbr&gt;
+                </td>
+                <td>
+                    Defines an abbreviation or acronym.
+                </td>
+                <td>
+                    <abbr>TIAAB</abbr> this is an acronym, note the text itself does not actually change at all and there is no noticable difference to the text on the web page, but if you look at the page source you will see it is braceted with &lt;abbr&gt;&lt;/abbr&gt; wich denotes it as an abbreviation. for more detailed information see <a href="https://www.w3schools.com/TAGS/tag_abbr.asp">W3 Schools</a> info page on the &lt;abbr&gt; tag.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;address&gt;
+                </td>
+                <td>
+                    Defines contact information for the author/owner of a document.
+                </td>
+                <td>
+                    <address>This page was written by Vincent Teune</address>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;area&gt;
+                </td>
+                <td>
+                    Defines an area inside an image map,
+                </td>
+                <td>
+                This one will be explained in more detail on another page, untill i get around to making that page more info can be found <a href="https://www.w3schools.com/TAGS/tag_area.asp">Here</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;article&gt;
+                </td>
+                <td>
+                    Defines an article, articles are independent or self contained content that should make sense on their own without the context of the web page. 
+                </td>
+                <td>
+                    <article>Roses Are Red, but not all of them.</article>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;aside&gt;
+                </td>
+                <td>
+                    defines content aside from the main page content. this can be useful for extra information or definitions
+                </td>
+                <td>
+                    <aside> The tag does not change the text but it does label it in the page source, this is just another way to help keep your page organized. </aside>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;audio&gt; 
+                </td>
+                <td>
+                    Defines embedded audio content.
+                </td>
+                <td>
+                    <audio controls>
+                        <source src="game_notification.wav">
+                    </audio>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;b&gt;
+                </td>
+                <td>
+                    Makes text bold
+                </td>
+                <td>
+                    <b>Bold Text</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;base&gt;
+                </td>
+                <td>
+                    specifies the base URL/target for all relative URL's in a document.
+                </td>
+                <td>
+                    this one takes too much space to orovide a good example here. Check <a href="https://www.w3schools.com/TAGS/tag_base.asp">this page for more detailed information</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;bdi&gt;
+                </td>
+                <td>
+                    Bi Drirectional Isolation, this isolates the bracketed text to prevent it from being formatted differently from the text outside it. this is most useful wne embedding information from sources where the ;anguage may natively run in the opposite direction. 
+                </td>
+                <td>
+                    <a href="https://www.w3schools.com/TAGS/tag_bdi.asp">W3 Shools &lt;bdi&gt; Tag</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;dbo&gt;
+                </td>
+                <td>
+                    overrides the current/native text direction.
+                </td>
+                <td>
+                    <bdo dir="rtl">If you ever want to write something backwards this is how to do it</bdo>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;blockquote&gt;
+                </td>
+                <td>
+                    defines a chunk of text that is quoted from another source. 
+                </td>
+                <td>
+                    <blockquote cite="https://www.w3schools.com/TAGS/default.ASP">This test is blockquoted</blockquote>. you can also add an href citation inside of the &lt;blockquote&gt; element. look at the page's source to see an example
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    &lt;body&gt;
+                </td>
+                <td>
+                    this defines the body of an HTML document
+                </td>
+                <td>
+                    view page source to see an eaxmple. this entire table is within the documents &lt;body&gt; &lt;/body&gt; brackets.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;br&gt;
+                </td>
+                <td>
+                    line break. 
+                </td>
+                <td>
+                    this<br> is <br> what <br> a <br> line <br> Break <br> does. 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;button&gt;
+                </td>
+                <td>
+                    this element makes a button 
+                </td>
+                <td>
+                    <button type="button">Now I Am A Button</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;canvas&gt;
+                </td>
+                <td>
+                    used for drawing graphics...
+                </td>
+                <td>
+                    this one can get complicated. Check it out here <a href="https://www.w3schools.com/TAGS/tag_canvas.asp">Canvas Tag</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;caption&gt;
+                </td>
+                <td>
+                    this defines a table caption,
+                </td>
+                <td>
+                    see the top of this table for an example
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;center&gt;
+                </td>
+                <td>
+                    this still works in some older versions of HTML but dont use it. Since HTML 5 it is no longer supported and will appear in red if you try to use it. use CSS to center text instead
+                </td>
+                <td>
+                    <center>this text is centered using the &lt;center&gt;&lt;/center&gt; tags</center>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    &lt;cite&gt;
+                </td>
+                <td>
+                    this is used to define the title of a work. It also italicises the text. See the <a href="HTML Formatting.html" target="blank" rel="noopener noreferrer">HTML Formatting</a> page for a better example of this 
+                </td>
+                <td>
+                    <cite>this text is cited</cite>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;code&gt;
+                </td>
+                <td>
+                    this defines the braceted content as computer code. 
+                </td>
+                <td>
+                    The HTML Element &lt;code&gt;&lt;/code&gt; is used to define a segement of computer code, this way you can type out certain things like the css element<code>bacground-color</code> to denote it as a segment of computer code inside of plain text. (i probably should have been using this tag from the beginning of this document.) 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;col&gt;
+                </td>
+                <td>
+                    specifies the column properties for each column inside of the &lt;colgroup&gt; element
+                </td>
+                <td>
+                    this one requires an example on another page. since that page is not yet contruscted, check out this one from <a href="https://www.w3schools.com/TAGS/tag_col.asp">W3 Schools</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;colgroup&gt;
+                </td>
+                <td>
+                    specifies a group of one or more columns inside of a table for formatting, 
+                </td>
+                <td>
+                    <a href="https://www.w3schools.com/TAGS/tag_colgroup.asp">click here</a> for more information on how this element works. 
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    &lt;data&gt;
+                </td>
+                <td>
+                    adds a machine readable transtlation of a given content. 
+                </td>
+                <td>
+                    You will have to look at the page source to see how this example works.
+                    <ul>
+                        <li><data value="0001">Clay Pot</data></li>
+                        <li><data value="0002">Ceramic Pot</data></li>
+                        <li><data value="0003">Iron Pot</data></li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;datalist&gt;
+                </td>
+                <td>
+                    this one is very useful for drop down menus, it specifies a list of pre-defines options for input controls
+                </td>
+                <td>
+                    unfortunately this element is ment for sending data out to a php server as far as i understand it, so the &lt;select&gt; element does a better job of drop down menus.
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;dd&gt;
+                </td>
+                <td>
+                    defines a description/value of a term in a description list. This element is used in conjunction with the &lt;dl&gt; and &lt;dt&gt; elements. 
+                </td>
+                <td>
+                    <blockquote cite="https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml_dd_test">
+
+                        <h3>The dl, dd, and dt elements</h3>
+
+                            <p>These three elements are used to create a description list:</p>
+
+                                <dl>
+                                    <dt>Coffee</dt>
+                                    <dd>Black hot drink</dd>
+                                    <dt>Milk</dt>
+                                    <dd>White cold drink</dd>
+                                </dl>
+
+                    </blockquote>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;del&gt;
+                </td>
+                <td>
+                    defines text that has been deleted from the page by striking a line through it. this is especially useful if you want to show edits to a given line of text. 
+                </td>
+                <td>
+                    <del>This text ahs been deleted</del>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;details&gt;
+                </td>
+                <td>
+                    defines additional details that the user can hide or view as needed, 
+                </td>
+                <td>
+                    <details>
+                        <summary>
+                            Poplar
+                        </summary>
+                        <p>
+                            Poplar Wood is commonly used in the manufacture of furniture, cabnetry, and plywood. Although poplar is considered a hardwood, its almost as easy to work with as softwoods such as pine. For this reason it is an extreemely versitile wood. 
+                        </p>
+                    </details>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;dfn&gt;
+                </td>
+                <td>
+                    specifies a term that is going to be defined in the content
+                </td>
+                <td>
+                    <dfn>Oak</dfn> has many sub species, some are used for <dfn>cooperage</dfn> while others are more suitable to general bulding materials. 
+                </td>
+            </tr>
+
+        </table> 
+
+    </body>
+
+    <footer>
+        <p>
+            Information sourced from W3 Schools <a href="https://www.w3schools.com/TAGS/default.ASP" target="blank" rel="noopener noreferrer">HTML Element Reference</a> page. 
+        </p>
+        <p>
+            Page Created By: Vincent Teune<br>
+            Last Updated: February 2022
+        </p>
+    </footer>
+
+</html>
