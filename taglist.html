@@ -72,10 +72,21 @@
                     &lt;a&gt;
                 </td>
                 <td>
-                    Defines a hyperlink, ex. &lt;a href="www.google.com"&gt;
+                    Defines a hyperlink, ex. &lt;a href="www.google.com"&gt; 
+                    <br>
+                    This tag is most often used in conjuntion with the &lt;href=""&gt; tag.
                 </td>
                 <td>
                     <a href="www.google.com">Google</a>
+                    <br>
+                    <p>Note: by default a hyperlink will open in the tab you are currently in unless you add target="blank" after href="". adding a blank target will cause the hyperlink to open in a new tab.</p>
+                    <p>For general security reasons it is best to add rel="noopener noreferrer" if your going to have a blank target. The sytax for a hyperlink that openes in a new tab or window (in this example I am using www.google.com as the page the hyperlink will open) is as follows: </p>
+                    <p>
+                        &lt;a href="www.google.com" target="blank" rel="noopener noreferrer"&gt; 
+                        <br>
+                        <br>
+                        for more information on why you should do this chek out this artice <a href="https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/" target="blank" rel="noopener norferrer">here.</a> There will also be a reference page asigned to this topic in the future. 
+                    </p>
                 </td>
             </tr>
 
@@ -428,6 +439,255 @@
                     <dfn>Oak</dfn> has many sub species, some are used for <dfn>cooperage</dfn> while others are more suitable to general bulding materials. 
                 </td>
             </tr>
+
+            <tr>
+                <td>
+                    &lt;dialog&gt;
+                </td>
+                <td>
+                    creates a dialog box
+                </td>
+                <td>
+                    <p>
+                        blah blah blah
+                    </p>
+                    <p>
+                           <dialog open>this is an open dialog window <br> Why it does not stay within the confines of a table cell IDK. <br> this sort of effect can be acheived with better results using CSS</dialog>
+                        i am at a loss for creative words right now
+                    </p>
+                    <p>
+                        some more random words.
+                    </p>
+                 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    &lt;div&gt;
+                </td>
+                <td>
+                    defines a section of a document. 
+                </td>
+                <td>
+                    the &lt;div&gt; element is mostly just used mostly to define sections of a page that dont fall intp the category of head, body, or foot.
+                    you can technically replace head, body and foot with &lt;div&gt; elements but thats sloppy and not recomended. 
+                </td>
+            </tr>
+        <tr>
+            <td>
+                &lt;dl&gt;
+            </td>
+            <td>
+                defines a decription list, it is used inconjunction with dd and dt. &lt;dl&gt; defines that there is a description list, &lt;dt&gt; defines the lements of that list, and &lt;dd&gt; defines the value of those elements in the list. 
+            </td>
+            <td>
+                <dl>
+                    <dt>item 1</dt>
+                    <dt>item 2</dt>
+                    <dt>item 4</dt>
+                </dl>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;dt&gt;
+            </td>
+            <td>
+                defines a term/name in a description list, 
+            </td>
+            <td>
+                see above example under the dl&gt; tag.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;em&gt; 
+            </td>
+            <td>
+                Empasizes text
+            </td>
+            <td>
+                <em> this text in emphasized.</em>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;embed&gl;
+            </td>
+            <td>
+                defines a container for an external embeded application
+            </td>
+            <td>
+                i dont havre an example for this one yet. Check out the link on W3 Schools for more information
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                &lt;fieldset&gt;
+            </td>
+            <td>
+                goups related elements in a form
+            </td>
+            <td>
+                <blockquote cite="https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml_fieldset">
+
+                    <form action="/action_page.php">
+                        <fieldset>
+                            <legend>Personalia:</legend>
+                            <label for="fname">First name:</label>
+                                <input type="text" id="fname" name="fname">
+                                <br><br>
+                            <label for="lname">Last name:</label>
+                                <input type="text" id="lname" name="lname">
+                                <br><br>
+                            <label for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                                <br><br>
+                            <label for="birthday">Birthday:</label>
+                                <input type="date" id="birthday" name="birthday">
+                                <br><br>
+                            <input type="submit" value="Submit">
+                        </fieldset>
+                    </form>
+
+                </blockquote>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;figcaption&gt; 
+            </td>
+            <td>
+                defines a caption for a figure element.
+            </td>
+            <td>
+                <figure>
+                    <img src="Bunny_1.png" width="50px" height="50px">
+                    <figcaption>Fig. 1 - A "bunny" or rabbit, drawing</figcaption>
+                </figure>
+                view page source for more detailed info. 
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;figure&gt;
+            </td>
+            <td>
+                specifies self cintained cintent. typically used for images and examples
+            </td>
+            <td>
+                view page source for &lt;figcaption&gt; for an example
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;footer&gt; 
+            </td>
+            <td>
+                Defines the foot of a document or section. Typically this section is used to place infomation that is intended to stay at the bottom of the page. 
+            </td>
+            <td>
+                view page source and scroll all the way to the bottom, thats where the footer is. 
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;form&gt;
+            </td>
+            <td>
+                Defines an HTML form for users to input data. 
+            </td>
+            <td>
+                <form action=""> <!--note that action is left blank here. Normally this is where you place the information for either an external php server or any other destination for where the information collected will go to be processed.-->
+                    <label for="fname">First Name</label>
+                        <input type="text" id="fname">
+                        <br><br>
+                    <label for="lname">Last Name</label>
+                        <input type="text" id="lname">
+                        <br><br>
+                    <label for="fcolor">Favorite Color</label>
+                        <input type="text" id="fcolor">
+                        <br><br>
+                        <input type="submit" value="submit">
+                </form>
+                <br>
+                see also the &lt;fieldset&gt; tag for another example of how these types of inputs work. 
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;h1&gt;<br>
+                &lt;h2&gt;<br>
+                &lt;h3&gt;<br>
+                &lt;h4&gt;<br>
+                &lt;h5&gt;<br>
+                &lt;h6&gt; 
+            </td>
+            <td>
+                Header Tags, these are used for formatting headline/headers in your HTML document. This is one of those things that search engines will look at for key words.
+                Each tag has a different level of sognificance assigned to it, with &lt;h1&gt; being the most significant and &lt;h6&gt; being the least significant. 
+            </td>
+            <td>
+                <p>Styntax and default formatting examples of &lt;h1&gt; through &lt;h6&gt;</p>
+                <h1>This is Header 1</h1>
+                <h2>This is Header 2</h2>
+                <h3>This is header 3</h3>
+                <h4>This is Header 4</h4>
+                <h5>This is Header 5</h5>
+                <h6>This is header 6</h6>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;head&gt;
+            </td>
+            <td>
+                The &lt;head&gt; tag is not to be confused with the &lt;header&gt; tag, they both serve a different purpose. &lt;head&gt; tags are used to define the head of an HTML document, this is where metadata and other information such as links to external css and JS pages that apply to the entire document can be found.
+                <br>
+                <i>Note: Each HTML document only has one &lt;head&gt; section. </i>
+            </td>
+            <td>
+                For an example of this tags syntax and use view the page source and look at the very top of the page. This item is also explained in more detail in the <a href="Basics.html" target="blank" rel="noopener noreferrer">HTML Basics</a> page.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;header&gt;
+            </td>
+            <td>
+                The &lt;header&gt; tag is used to define the Header for a document or section. Unlike the &lt;head&gt; tag, you can have multiple headers, just like you can have multiple bodies and footers. 
+            </td>
+            <td>
+                This will be desplayed in more detail in the <a href="HTML_Basics_2.html" target="blank" rel="noopener noreferrer">HTML Basics 2</a> Page.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;hr&gt;
+            </td>
+            <td>
+                Creates a horizontal Rule or line across the width of the page.
+            </td>
+            <td>
+                <p>this one does work inside of table cells but is normally used to add a defining line between sections of a page, for example i tend to use it to differentiate the header from the body. </p>
+                <hr>
+                <br>
+            </td>
+        </tr>
+
 
         </table> 
 
