@@ -1,18 +1,28 @@
 td {
     display: table-cell;
+    padding: 10px;
 }
 
 table {
-    width: 1500px ; 
+    max-width: 1200px; 
     margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+table caption {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .white {
     background-color: aliceblue;
+    padding: 5px;
 }
 
 .grey {
     background-color: lightsteelblue;
+    padding: 5px;
 }
 
 h1 {
@@ -29,6 +39,29 @@ header {
     background-size: cover;
 }
 
-nav {
-    float: right;
+nav button {
+    display: inline-block;
+    margin: 15px 0 15px 0;
+    border: none;
+    text-align: center;
+    background-color: rgb(30, 21, 150);
+    color: #fffafa;
+    padding: 10px;
+    margin: 0 15px 0 15px;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(../Images/white-blue-hex.jpg); /* atributation for image: <a href='https://www.freepik.com/vectors/background'>Background vector created by starline - www.freepik.com</a> */
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: rgb(130, 177, 206);
 }
