@@ -1,0 +1,31 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../Images/css_page_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.outline {
+    color: gold;
+    font-size: 18;
+    text-align: left;
+    border: 2px solid goldenrod;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(69, 11, 228, 0.5);
+}
+
+.outline h2 {
+    color: gold;
+    font-size: 30;
+    text-align: center;
+}

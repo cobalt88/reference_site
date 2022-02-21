@@ -1,0 +1,54 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../Images/js-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(211, 194, 44)
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.inline-js {
+    border: 2px solid;
+    background-color: rgba(69, 11, 228, 0.5);
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.outline {
+    color: gold;
+    font-size: 18;
+    text-align: left;
+    border: 2px solid goldenrod;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(69, 11, 228, 0.5);
+    padding: 20px;
+}
+
+.outline h2 {
+    color: gold;
+    font-size: 30;
+    text-align: center;
+}
+
+footer {
+    color: gold;
+    font-size: 30;
+    text-align: center;
+    border: 2px solid;
+    max-width: 1000px;
+    background-color: rgba(34, 109, 46, 0.534);
+    margin: 10px auto;
+}
