@@ -51,7 +51,7 @@ body h2 {
 
   footer {
       margin: 0 auto;
-      padding: 20px;
+      padding: 30px;
       border: solid 3px rgb(255, 212, 23);
       max-width: 500px;
       background-color: rgb(119, 2, 119);
@@ -63,3 +63,4 @@ body h2 {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
