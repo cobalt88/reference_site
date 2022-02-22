@@ -42,3 +42,24 @@ body h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  footer {
+      margin: 0 auto;
+      padding: 20px;
+      border: solid 3px rgb(255, 212, 23);
+      max-width: 500px;
+      background-color: rgb(119, 2, 119);
+  }
+
+  address {
+    color: goldenrod;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
