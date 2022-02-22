@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+
+<Head>
+    <title>git Commit</title>
+    <link rel="stylesheet"  href="../StyleSheets/git_commit.css"/>
+</Head>
+
+<header>
+    <h1>git commit</h1>
+</header>
+
+    <body>
+        <section id="message">
+            <h2>git commit -m "  "</h2>
+            <p>
+                The <code>git commit</code> command will not execute without a <code>-m</code> or message value. And this is a good thing, you dont want people (yourself included) to be pushing changes to your repository wihtout any explanation as to what they did or why or when. So lets look at what happens when you do a <code>git commit -m "your messge here"</code>.
+            </p>
+
+            <p>
+                In this example we are going to assume you are working inside an existing project and have made a few changes to the style.css sheet for your index.html 
+                <br/>
+                lets say the exact message you want to add to the commit is <code>git commit -m ""fixed some bugs in the style.css for index.html that were pointed out by user1234 in comment thread 00486 on 12-9-21"</code> 
+                <br/>
+                <img src="../Images/git_commit_1.png" alt="git bash terminal displaying git commit -m" class="center" />
+                <br>
+                Thats an adequate description of what changes were made and why, if you wanted more detail it tells you where to find it without being overly verbose. However, once pushed to the remote repository you get something that looks like this:
+                <br>
+                <img src="../Images/git_commit_2.png" alt="github remote repository after push" class="center" />
+                <br/>
+                Notice how that message that was added to the <code>git commit</code> looks a lot longer when when its displayed here? its so long it cant even load the whole messge.
+                <br/>
+                Now lets take a look at how it looks when we open the stylesheet folder on github and look at the most recent changes. 
+                <br/>
+                <img src="../Images/git_commit_3.png" alt="git repository commit details" class="center" >
+                <br> 
+            </p>
+
+        </section>
+    </body>
+
+    <footer>
+        <address>
+            Page Created By: Vincent Teune <br/>
+            This page is part of an ongoing project <br/>
+            Last Updated February 2022
+        </address>
+    
+    </footer>
+
+</html>
