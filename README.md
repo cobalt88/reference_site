@@ -1,7 +1,7 @@
 # reference_site
 https://cobalt88.github.io/reference_site/
 
-My personal reference site for all things HTML CSS and JavaScript, Built as I am learning these languages from ground zero. 
+My personal pet project reference site for all things HTML CSS and JavaScript, Built as I am learning these languages from ground zero. 
 
 This entire project is continuously in progress and always being improved. Many of the pages are not styled and are simply raw HTML documents. 
 That is on purpose. The main function of this site is to provide a visual reference of how different elements work, both on their own, and in conjunction with the other languages, in as simple a format as is possible. 
