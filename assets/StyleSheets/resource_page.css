@@ -1,0 +1,43 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placeholder-div img{
+    max-width: 1000px;
+    padding: 100px;
+    margin: 0 auto;
+}
+
+header {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 75px;
+    margin: 0 auto;
+    background-color: rgb(173, 216, 230);
+    background-size: cover;
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    margin: auto;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+nav button {
+    display: inline-block;
+    margin: 15px 0 15px 0;
+    border: none;
+    text-align: center;
+    background-color: rgb(119, 2, 119);
+    color: #fffafa;
+    padding: 10px;
+    margin: 0 15px 0 15px;
+    cursor: pointer;
+} 
