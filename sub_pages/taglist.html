@@ -1110,7 +1110,320 @@
                 </td>
             </tr>
 
+            <tr class="white">
+                <td>
+                    &lt;pre&gt;
+                </td>
+                <td>
+                    The param tag defines the parameter for an object, and is used exclusively for that purpose. 
+                </td>
+                <td>
+                    (insert image here of code syntax and build example for odject element)
+                </td>
+            </tr>
 
+            <tr class="grey">
+                <td>
+                    &lt;pre&gt;
+                </td>
+                <td>
+                    The pre tag is a pretty useful one. It defines a region of your code that is pre-formatted text.
+                </td>
+                <td>
+                    <pre>
+                        In this example, There are no
+                            paragraph elements
+                            list elements
+                            line breaks
+                            text formatting
+
+                        or any other forms of formatting required. 
+
+                        Unlike the way HTML normally works, 
+                        However you type out what is placed between opening 
+                        and closing pre elements, thats how it will appear
+                        in the browser. The only acception to this is reserved
+                        characters like &lt; and &gt;. 
+                    </pre>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;progress&gt;
+                </td>
+                <td>
+                    Defines the progress of a task, this can be used in conjunction with JavaScript to create responsive progress bars, by itslef it is static when values are defined or animated like a ping pong platform when no values or attributes are defined. 
+                    <br/>
+                    Note: The &lt;progress&gt; tag is not suitable for representing a gauge. To represent a gauge, use the &lt;meter&gt; tag.
+                </td>
+                <td>
+                    <label for="download">Download in progress:</label>
+                    <progress id="download" value="78" max="100"> 78% </progress>
+
+                    <p> This is what a progress tag does if it has no values defined <br/>
+                        <progress></progress>
+                    </p>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;q&gt;
+                </td>
+                <td>
+                    the &lt;q&gt; tag defines a short quotation and places whatever is between its opening/closing tags in quotation marks.
+                </td>
+                <td>
+                    as the saying goes, <q>Carpe Diem</q>
+
+                    (insert image of code syntaax here)
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;rp&gt;
+                </td>
+                <td>
+                    this tag defines what to show in browsers that do not support ruby annotations, see &lt;rt&gt; for an example of a ruby annotation. A ruby annotation is a small extra text, attached to the main text to indicate the pronunciation or meaning of the corresponding characters. 
+                </td>
+                <td>
+                    <ruby>
+                        Teune <rp>(</rp><rt>too-knee</rt><rp>)</rp>
+                    </ruby>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;rt&gt;
+                </td>
+                <td>
+                    Defines an expalanation or pronunciation of characters, this is used within the ruby element, and together these are most often used for asain typography like japanese or mandarin.
+                </td>
+                <td>
+                    here is an example in english to make the context more understandable, but this is mostly used for character based languages.
+                    <ruby>
+                        Teune<rt>too-knee</rt>
+                    </ruby>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;ruby&gt;
+                </td>
+                <td>
+                    The &lt;ruby&gt; tag defines a ruby annotation. This is used for east asian typography, and is used with rt and rp, see exmples of each above.
+                </td>
+                <td>
+                    (insert image of code snippet here)
+                </td>
+            </tr>
+            
+            <tr class="grey">
+                <td>
+                    &lt;s&gt;
+                </td>
+                <td>
+                    Defines text that is no longer correct by drawing a line through the text. This tag replaces the older &lt;strike&gt; tag, wich is no longer supported
+                </td>
+                <td>
+                    <p>
+                        <b>ON SALE NOW!</b> <br/>
+                        <s>LOW STOCK REMAINING!</s>
+                    </p>    
+                    <p>Sold Out</p>
+                    
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;samp&gt;
+                </td>
+                <td>
+                    Defines a sample output from a computer program. 
+                </td>
+                <td>
+                    <p>Message from my computer:</p>
+
+                    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;script&gt;
+                </td>
+                <td>
+                    The script tag is used to embed a script, specifically JavaScript, into your HTML document directly, instead of having an external file like logic.js linked to your page. This can be useful for certain things like buttons or interactive animations on smaller pages where you dont intend to use much JS.
+                </td>
+                <td>
+                    <p id="demo"></p>
+
+                    <script>
+                    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                    </script> 
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;section&gt;
+                </td>
+                <td>
+                    The section tag defines a section of your HTML document. It is similar to a div, just more specific, and should be used to organize your page content into relatable chunks. 
+                </td>
+                <td>
+                    <section id="section1">
+                        <p>this is sections 1</p>
+                    </section>
+                    <section id="section2">
+                        <p>this is section 2</p>
+                    </section>
+                    (insert image of code snippet here)
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;select&gt;
+                </td>
+                <td>
+                    defines a drop down list, often times used with the form element. 
+                </td>
+                <td>
+
+                    <form action="/action_page.php">
+                        <label for="colors">Choose a color:</label>
+                        <select name="colors" id="colors">
+                            <optgroup label="primary">
+                            <option value="red">Red</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="blue">Blue</option>
+                            </optgroup>
+                            <optgroup label="Secondary">
+                            <option value="Green">Green</option>
+                            <option value="Purple">Purple</option>
+                            <option value="Yellow-green">Yellow-Green</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                        </form>
+
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;small&gt;
+                </td>
+                <td>
+                    defines smaller text, and fomrats it to be smaller than the surronding text.
+                </td>
+                <td>
+                    sometimes you just neen the text to be slightly <small>smaller</small> than everything else. generally though it is better to use CSS for text formatting. 
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;source&gt;
+                </td>
+                <td>
+                    defines the media resources for media elements such as audio and video.
+                </td>
+                <td>
+                    (add link to sudio tag) see audio for an example, (add code snippet of code syntax)
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;span&gt;
+                </td>
+                <td>
+                    the span tag is used to define an in-line section so that it can be targeted by CSS or JavaScript. Its similar to div and section accept that is not a block-level element, it is specifically for in-line applications.
+                </td>
+                <td>
+                    the span element can be used for in-line styling to change <span style="color:red;font-size:larger">fonts</span> or pretty much anything that css can target. 
+                    It is also useful for asigning small pieced of code <span id="span1">id tags</span> without changing any local formatting. 
+                    If you look at the page source for this paragraph you will see the words "id tags" are assigned an id of span1, but no changes have been made to its formatting. 
+                    this is so you could target #span1 with css or JS. you could aslo assign the span tag a class just like any other block level element. Wich is convenient for when ou dont want to make a new section or div.
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;strong&gt;
+                </td>
+                <td>
+                    The strong tag is a semantic element that used to define a section of text as important. 
+                </td>
+                <td>
+                    the word <strong>Important</strong> has been placed withing the strong opening and closing tags. 
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;style&gt;
+                </td>
+                <td>
+                    The style tag defines a section of the body that contains CSS styling for the document. 
+                    This is used in a document where you might want something to override your external styling sheet. 
+                    However it is reccomended that you keep all your CSS styling separate from your HTML documents whenever possible to make your pages more maintainable.
+                </td>
+                <td>
+                    ( insert photo of style block here)
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;sup&gt;
+                </td>
+                <td>
+                    Superscript. Anything between the sup openeing and closing tags will be converted to superscript.
+                </td>
+                <td>
+                    here is an example of <sup>Superscript</sup>, all it does is create a kind of notation above and to the right of the bracketed text.
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;summary&gt;
+                </td>
+                <td>
+                    Used excusiely with the details element, summary created a heading for the details. 
+                </td>
+                <td>
+                    <details>
+                        <summary>
+                            Poplar (this is the summary)
+                        </summary>
+                        <p>
+                           (this is the rest of the details content) Poplar Wood is commonly used in the manufacture of furniture, cabnetry, and plywood. Although poplar is considered a hardwood, its almost as easy to work with as softwoods such as pine. For this reason it is an extreemely versitile wood. 
+                        </p>
+                    </details>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;sub&gt;
+                </td>
+                <td>
+                    This is the opposite of superscript, the subscript tag has the same default formatting as &lt;sup&gt; accept it places the text below and to the right instead. 
+                </td>
+                <td>
+                    The opposite of <sup>superscript</sup> is <sub>subscript</sub>
+                </td>
+            </tr>
 
         </table> 
 
