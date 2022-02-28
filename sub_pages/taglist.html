@@ -53,7 +53,8 @@
                     Defines the document type
                 </td>
                 <td>
-                    N/A, look at the top of any HTML document and this is the first item you will see
+                    (edit note: add image of code syntax here) <br/>
+                    look at the top of any HTML document and this is the first item you will see
                 </td>
             </tr>
 
@@ -62,12 +63,12 @@
                     &lt;a&gt;
                 </td>
                 <td>
-                    Defines a hyperlink, ex. &lt;a href="www.google.com"&gt; 
+                    The anchor element defines a hyperlink anchor, ex. &lt;a href="https://www.google.com"&gt; 
                     <br/>
                     This tag is most often used in conjuntion with the &lt;href=""&gt; tag.
                 </td>
                 <td>
-                    <a href="google.com">Google</a>
+                    <a href="https://google.com" target="blank" rel="noopener noreferrer">Google</a>
                     <br/>
                     <p>Note: by default a hyperlink will open in the tab you are currently in unless you add target="blank" after href="". adding a blank target will cause the hyperlink to open in a new tab.</p>
                     <p>For general security reasons it is best to add rel="noopener noreferrer" if your going to have a blank target. The sytax for a hyperlink that openes in a new tab or window (in this example I am using www.google.com as the page the hyperlink will open) is as follows: </p>
@@ -133,7 +134,7 @@
                     &lt;aside&gt;
                 </td>
                 <td>
-                    defines content aside from the main page content. this can be useful for extra information or definitions
+                    Defines content aside from the main page content. this can be useful for extra information or definitions
                 </td>
                 <td>
                     <aside> The tag does not change the text but it does label it in the page source, this is just another way to help keep your page organized. </aside>
@@ -159,7 +160,7 @@
                     &lt;b&gt;
                 </td>
                 <td>
-                    Makes text bold
+                    Makes text bold.
                 </td>
                 <td>
                     <b>Bold Text</b>
@@ -183,7 +184,7 @@
                     &lt;bdi&gt;
                 </td>
                 <td>
-                    Bi Drirectional Isolation, this isolates the bracketed text to prevent it from being formatted differently from the text outside it. this is most useful wne embedding information from sources where the ;anguage may natively run in the opposite direction. 
+                    Bi Directional Isolation, this isolates the bracketed text to prevent it from being formatted differently from the text outside it. this is most useful wne embedding information from sources where the language may natively run in the opposite direction. 
                 </td>
                 <td>
                     <a href="https://www.w3schools.com/TAGS/tag_bdi.asp">W3 Shools &lt;bdi&gt; Tag</a>
@@ -195,7 +196,7 @@
                     &lt;dbo&gt;
                 </td>
                 <td>
-                    overrides the current/native text direction.
+                    Bi Directional Override, overrides the current/native text direction.
                 </td>
                 <td>
                     <bdo dir="rtl">If you ever want to write something backwards this is how to do it</bdo>
@@ -207,10 +208,10 @@
                     &lt;blockquote&gt;
                 </td>
                 <td>
-                    defines a chunk of text that is quoted from another source. 
+                    Defines a chunk of text that is quoted from another source. 
                 </td>
                 <td>
-                    <blockquote cite="https://www.w3schools.com/TAGS/default.ASP">This test is blockquoted</blockquote>. you can also add an href citation inside of the &lt;blockquote&gt; element. look at the page's source to see an example
+                    <blockquote cite="https://www.w3schools.com/TAGS/default.ASP">This text is blockquoted</blockquote>. you can also add an href citation inside of the &lt;blockquote&gt; element. look at the page's source to see an example
                 </td>
             </tr>
             
@@ -219,10 +220,11 @@
                     &lt;body&gt;
                 </td>
                 <td>
-                    this defines the body of an HTML document
+                    The body element defines the body of an HTML document. <br/>
+                    Note: Do not confuse this with &lt;main&gt;
                 </td>
                 <td>
-                    view page source to see an eaxmple. this entire table is within the documents &lt;body&gt; &lt;/body&gt; brackets.
+                    View page source to see an example. this entire table is within the documents &lt;body&gt; &lt;/body&gt; brackets.
                 </td>
             </tr>
 
@@ -231,7 +233,7 @@
                     &lt;br/&gt;
                 </td>
                 <td>
-                    line break. <br/>
+                    The line break. <br/>
                     Note: This is referred to as a self closing tag. as such do not forget to add the "/" at the end of the tag. HTML5 does not support the older syntax of &lt;br&gt; 
                 </td>
                 <td>
@@ -244,7 +246,7 @@
                     &lt;button&gt;
                 </td>
                 <td>
-                    this element makes a button 
+                    The button element makes a button.
                 </td>
                 <td>
                     <button type="button">Now I Am A Button</button>
@@ -256,7 +258,7 @@
                     &lt;canvas&gt;
                 </td>
                 <td>
-                    used for drawing graphics...
+                    Used for drawing graphics... or containing them. I'm not a 100% on this one yet. 
                 </td>
                 <td>
                     this one can get complicated. Check it out here <a href="https://www.w3schools.com/TAGS/tag_canvas.asp">Canvas Tag</a>
@@ -268,7 +270,7 @@
                     &lt;caption&gt;
                 </td>
                 <td>
-                    this defines a table caption,
+                    The caption defines a table caption.
                 </td>
                 <td>
                     see the top of this table for an example
@@ -292,10 +294,10 @@
                     &lt;cite&gt;
                 </td>
                 <td>
-                    this is used to define the title of a work. It also italicises the text. See the <a href="./" target="blank" rel="noopener noreferrer">HTML Formatting</a> page for a better example of this 
+                    This is used to define the title of a work. It also italicises the text. See the <a href="./" target="blank" rel="noopener noreferrer">HTML Formatting</a> page for a better example of this 
                 </td>
                 <td>
-                    <cite>this text is cited</cite>
+                    <cite>This text is cited</cite>
                 </td>
             </tr>
 
@@ -304,7 +306,7 @@
                     &lt;code&gt;
                 </td>
                 <td>
-                    this defines the braceted content as computer code. 
+                    The code element defines the braceted content as computer code. This is for semantic purposes, not formatting. 
                 </td>
                 <td>
                     The HTML Element &lt;code&gt;&lt;/code&gt; is used to define a segement of computer code, this way you can type out certain things like the css element<code>bacground-color</code> to denote it as a segment of computer code inside of plain text. (i probably should have been using this tag from the beginning of this document.) 
@@ -316,10 +318,11 @@
                     &lt;col&gt;
                 </td>
                 <td>
-                    specifies the column properties for each column inside of the &lt;colgroup&gt; element
+                     The column tag specifies the column properties for each column inside of the &lt;colgroup&gt; element, both of wich are required to be decendants of a table element. 
                 </td>
                 <td>
                     this one requires an example on another page. since that page is not yet contruscted, check out this one from <a href="https://www.w3schools.com/TAGS/tag_col.asp">W3 Schools</a>
+                    <p> or check out table further down the list, it covers some of it.</p>
                 </td>
             </tr>
 
@@ -340,7 +343,8 @@
                     &lt;data&gt;
                 </td>
                 <td>
-                    adds a machine readable transtlation of a given content. 
+                    The data attribute adds a machine readable transtlation of a given content. In other words it allows you assign a numerical value to any piece of content. <br/>
+                    Note: if the content targeted is time or date related, use the &lt;time&gt; element. 
                 </td>
                 <td>
                     You will have to look at the page source to see how this example works.
@@ -357,10 +361,10 @@
                     &lt;datalist&gt;
                 </td>
                 <td>
-                    this one is very useful for drop down menus, it specifies a list of pre-defines options for input controls
+                    I dont really understand how this one works yet but according to mozilla, it is used to contain a set of &lt;option&gt; elements that that represent permissible or recommended options available to choose from within other controlls.
                 </td>
                 <td>
-                    unfortunately this element is ment for sending data out to a php server as far as i understand it, so the &lt;select&gt; element does a better job of drop down menus.
+                    See the example provided by <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist"> MDN Web Services</a> for more information. 
             </tr>
 
             <tr class="grey">
@@ -396,7 +400,7 @@
                     defines text that has been deleted from the page by striking a line through it. this is especially useful if you want to show edits to a given line of text. 
                 </td>
                 <td>
-                    <del>This text ahs been deleted</del>
+                    <del>This text has been deleted</del>
                 </td>
             </tr>
 
@@ -405,7 +409,8 @@
                     &lt;details&gt;
                 </td>
                 <td>
-                    defines additional details that the user can hide or view as needed, 
+                    The details element defines additional details that the user can hide or view as needed, <br>
+                    Note: see also &lt;summary&gt; (add link to summary here)
                 </td>
                 <td>
                     <details>
@@ -424,7 +429,7 @@
                     &lt;dfn&gt;
                 </td>
                 <td>
-                    specifies a term that is going to be defined in the content
+                    The define element specifies a term that is going to be defined in the content, somethines this can be done with a details element or a separate section with a list of definitions. 
                 </td>
                 <td>
                     <dfn>Oak</dfn> has many sub species, some are used for <dfn>cooperage</dfn> while others are more suitable to general bulding materials. 
@@ -436,18 +441,18 @@
                     &lt;dialog&gt;
                 </td>
                 <td>
-                    creates a dialog box
+                    Dialog creates a dialog box
                 </td>
                 <td>
                     <p>
-                        blah blah blah
+                        blah blah blah, i am some random content,
                     </p>
                     <p>
-                           <dialog open>this is an open dialog window <br/> Why it does not stay within the confines of a table cell IDK. <br/> this sort of effect can be acheived with better results using CSS</dialog>
-                        i am at a loss for creative words right now
+                           <dialog open>This is an open dialog window <br/> Why it does not stay within the confines of a table cell IDK. <br/> If the dialog is not set to open then it does not appear.</dialog>
+                        
                     </p>
                     <p>
-                        some more random words.
+                        some more random words. that you cant see untill i figure out what i am doing wront with this element. 
                     </p>
                  
                 </td>
@@ -458,11 +463,11 @@
                     &lt;div&gt;
                 </td>
                 <td>
-                    defines a section of a document. 
+                    The div or Content Division Element defines a section of a document. It can be used as many times as it needed and is non-descript 
                 </td>
                 <td>
-                    the &lt;div&gt; element is mostly just used mostly to define sections of a page that dont fall intp the category of head, body, or foot.
-                    you can technically replace head, body and foot with &lt;div&gt; elements but thats sloppy and not recomended. 
+                    the &lt;div&gt; element is mostly just used mostly to define sections of a page that dont fall into a semantically definable element like body, section, article, ect.
+                    you can technically replace any block level element with &lt;div&gt; elements but thats sloppy and not recomended. 
                 </td>
             </tr>
 
@@ -471,13 +476,16 @@
                 &lt;dl&gt;
             </td>
             <td>
-                defines a decription list, it is used inconjunction with dd and dt. &lt;dl&gt; defines that there is a description list, &lt;dt&gt; defines the lements of that list, and &lt;dd&gt; defines the value of those elements in the list. 
+                Description list: defines a decription list, it is used in conjunction with dd (description definition) and dt (description title). &lt;dl&gt; defines that there is a description list, &lt;dt&gt; defines the lements of that list, and &lt;dd&gt; defines the value of those elements in the list. 
             </td>
             <td>
                 <dl>
-                    <dt>item 1</dt>
+                    <dt>item 1, this is the dt element</dt>
+                    <dd>here is the dd element, this is where you would define item 1</dd>
                     <dt>item 2</dt>
-                    <dt>item 4</dt>
+                    <dd>define item 2</dd>
+                    <dt>item 3</dt>
+                    <dd>define item 3</dd>
                 </dl>
             </td>
             </tr>
@@ -487,10 +495,10 @@
                     &lt;dt&gt;
                 </td>
                 <td>
-                    defines a term/name in a description list, 
+                    Descreiption Definition, defines a term/name in a description list, 
                 </td>
                 <td>
-                    see above example under the dl&gt; tag.
+                    see above example under the &lt;dl&gt; tag.
                 </td>
             </tr>
 
@@ -511,10 +519,10 @@
                     &lt;embed&gl;
                 </td>
                 <td>
-                    defines a container for an external embeded application
+                    Defines a container for an external embeded application
                 </td>
                 <td>
-                    i dont havre an example for this one yet. Check out the link on W3 Schools for more information
+                    I dont have an example for this one yet. Check out the link on W3 Schools for more information
                 </td>
             </tr>
             
@@ -523,7 +531,7 @@
                     &lt;fieldset&gt;
                 </td>
                 <td>
-                    goups related elements in a form
+                    Fieldset goups related elements in a form,
                 </td>
                 <td>
                     <blockquote cite="https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml_fieldset">
@@ -556,7 +564,7 @@
                     &lt;figcaption&gt; 
                 </td>
                 <td>
-                    defines a caption for a figure element.
+                    The Figure Caption element defines a caption for a figure element.
                 </td>
                 <td>
                     <figure>
@@ -572,7 +580,7 @@
                     &lt;figure&gt;
                 </td>
                 <td>
-                    specifies self cintained cintent. typically used for images and examples
+                   The figure element specifies self contained content. typically used for images and examples
                 </td>
                 <td>
                     view page source for &lt;figcaption&gt; for an example
@@ -659,7 +667,7 @@
                     &lt;header&gt;
                 </td>
                 <td>
-                    The &lt;header&gt; tag is used to define the Header for a document or section. Unlike the &lt;head&gt; tag, you can have multiple headers, just like you can have multiple bodies and footers. 
+                    The &lt;header&gt; tag is used to define the Header for a document or section, wich contains introductory content. Unlike the &lt;head&gt; tag, you can have multiple headers, just like you can have multiple sections and divs. 
                 </td>
                 <td>
                     This will be desplayed in more detail in the <a href="./basics_2.html" target="blank" rel="noopener noreferrer">HTML Basics 2</a> Page.
@@ -674,7 +682,7 @@
                     Creates a horizontal Rule or line across the width of the page.
                 </td>
                 <td>
-                    <p>this one does work inside of table cells but is normally used to add a defining line between sections of a page, for example i tend to use it to differentiate the header from the body. </p>
+                    <p>This one does work inside of table cells but is normally used to add a defining line between sections of a page, for example i tend to use it to differentiate the header from the body. </p>
                     <hr>/
                     <br/>
                 </td>
@@ -702,7 +710,7 @@
                     &lt;i&gt;
                 </td>
                 <td>
-                    in older versions pf HTML this was a styling option to italicise text. It still does that but for a different reason. Now the &lt;i&gt; tag is used to italicise text and define it as being in an alternate voice or mood for accesibility software such as screen readers. 
+                    Italicise: in older versions of HTML this was a styling option to italicise text to add emphasis or to show it is intended to be in an alternate voice or mood. Now it just makes italicised text, if you would like to semantically emphasise something use the &lt;em&gt; tag. 
                 </td>
                 <td>
                     If you would like to put a litte <i>emphasis</i> such as <i>The</i> White House, or a phrase like: In the words of the romans, <i>Carpe Diem.</i> this would be the perfect tag.
