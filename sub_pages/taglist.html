@@ -851,13 +851,265 @@
                     &lt;main&gt;
                 </td>
                 <td>
-                    this tag is a great one to know, It specifies the main content of a document. But make sure you understand how to use it, there is a list of conditions for its use. <br/>
+                    This tag is a great one to know, It specifies the main content of a document. But make sure you understand how to use it, there is a list of conditions for its use. <br/>
                     <ol>
                         <li>There can only be 1 &lt;main&gt; element in a document. unlike most other HTML elements you can use this one as many times as you want to describe differrent sections of your content, thats what &lt;section&gt; is for.</li>
+                            <br/>
                         <li>This element can only be used to contain content unique to the document it is in. So things like navigation bars, contact info, copyright information, anything else that is used across multiple pages on your site, <strong>CANNOT</strong> be placed inside this element</li>
+                            <br/>
+                        <li>and lastly &lt;main&gt; <strong>MUST NOT</strong> be a child element or decendant of an &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;, &lt;header&gt;, or &lt;nav&gt; element. </li>
                     </ol>
                 </td>
+                <td>
+                    <img src="../assets/Images/" alt="image of main element syntax">
+                </td>
             </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;map&gt;
+                </td>
+                <td>
+                    The map tag defines an image map, wich is used to map or create clickable areas on an image. This one may get its own page in the near future, but for now the exmaple shows the average basic stntax of this element. 
+                </td>
+                <td>
+                    add image here of syntax example and its result. 
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;mark&gt;
+                </td>
+                <td>
+                    Mark is an easy and also very useful element. It highlights "marked" text. this is of ecpecial use when you want to highlight somehting that is nested within other elements and css blocks without having to add an ID to every item you want highlighted. 
+                    <br/>
+                    Note: This tag supports global and event attributes. 
+                </td>
+                <td>
+                    The <mark>yellow</mark> text has been marked with an unaltered &lt;mark&gt; element. It is possible to target this tag/element with css for some different effects and styling. More on that one will be cocered in the <a href="./css_formatting.html" rel="noopener noreferrer" target="none">CSS Styling</a> page. 
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;meta&gt;
+                </td>
+                <td>
+                    The meta tag defines the metadata about the page. For example the characterset, content, name, and http-equiv
+                </td>
+                <td>
+                    <img alt="image of meta tag syntax" src="../assets/Images/"> 
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;meter&gt;
+                </td>
+                <td>
+                    The meter tag is used to define a scalar measurement within a defined range, such a progress bar. 
+                </td>
+                <td>
+                    Here is an exmaple from w3schools:
+                    <div>
+                        <h1>The meter element</h1>
+
+                        <p>The meter element is used to display a gauge:</p>
+
+                        <label for="disk_c">Disk usage C:</label>
+                        <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+                        <label for="disk_d">Disk usage D:</label>
+                        <meter id="disk_d" value="0.6">60%</meter>
+
+                        <p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;nav&gt;
+                </td>
+                <td>
+                    Nav defines navigation links. Any time you have a group of links, either to internal or external html pages, you can place them inside a nav element. 
+                </td>
+                <td>
+                    Example of a nav element with navigation links: <br/>
+                    <nav>
+                        <button type="button" onclick="location.href='./sub_pages/formatting_1.html'">Formatting Page 1</button>
+                        <button type="button" onclick="location.href='./sub_pages/basics_2.html'">Basics 2</button>
+                        <button type="button" onclick="location.href='./sub_pages/taglist.html'">HTML Tags</button>
+                        <button type="button" onclick="location.href='./sub_pages/experiments.html'">Experiments</button>
+                        <button type="button" onclick="location.href='./sub_pages/css_formatting.html'">Formatting 2 - CSS</button>
+                        <button type="button" onclick="location.href='./sub_pages/js.html'">JavaScript</button>
+                    </nav>
+                    
+                </td>
+            </tr>
+
+            <tr class="grey">
+               <td>
+                    &lt;noscript&gt;
+               </td>
+               <td>
+                   defines an alternate content for users that do not supprt client-side scripts. what that means is it will do something like display a message if your browser doesnt support a script in your document. 
+               </td>
+               <td>
+                   See this example from <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_noscript" rel="noopener noreferrer">w3schools</a>
+
+                    <h1>The noscript element</h1>
+
+                    <p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+                    <script>
+                        document.write("Hello World!")
+                    </script>
+                    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+               </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;odject&gt;
+                </td>
+                <td>
+                    defines a container for an external application or recource. this can be an image, video, audio, however it really is best to use the appropriate semantic elements. It can be used (and mostly is as far as i know) for plug-ins
+                </td>
+                <td>
+                    here is an example using the object element to display a page from w3 schools with more information on this tag: <br/> <br/>
+                    <object data="https://www.w3schools.com/tags/tag_object.asp" type="html" width="300" height="300"></object>
+                </td>
+
+                <tr class="grey">
+                    <td>
+                        &lt;ol&gt;
+                    </td>
+                    <td>
+                        Ordered list. Identical to <a href="#ul">Unordered</a> list in sintax, Only difference it uses numbers or letter instead of bullet points. 
+                    </td>
+                    <td>
+                        <ol>
+                            <li>line item 1</li>
+                            <li>line item 2</li>
+                                <ul>
+                                    <li>unordered list inside an ordered list</li>
+                                    <li>can have a few useful benefits</li>
+                                </ul>
+                            <li>makes things all nice and organized</li>
+                        </ol>
+
+                        <ol start="123">
+                            <li> you can even designate a starting gnumber</li>
+                            <li>you can use numeral, letters, uppercase and lower case, </li>
+                        </ol>
+                    </td>
+                </tr>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;optgroup&gt;
+                </td>
+                <td>
+                    Defines a group of options inside a drop down menu. 
+                </td>
+                <td>
+                    <cite>the follwoing example is from w3schools</cite>
+                    <br/>
+                    <p>The optgroup tag is used to group related options in a drop-down list:</p>
+
+                        <form action="/action_page.php">
+                        <label for="cars">Choose a car:</label>
+                        <select name="cars" id="cars">
+                            <optgroup label="Swedish Cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                            </optgroup>
+                        </select>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                        </form>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;option&gt;
+                </td>
+                <td>
+                    used to define an option inside a drop down menu.
+                </td>
+                <td>
+                    see optgroup for an example. 
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;output&gt;
+                </td>
+                <td>
+                    used to define the output of a calculation/ 
+                </td>
+                <td>
+                    <h1>The output element</h1>
+
+                    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                    </form>
+
+                    <p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;p&gt;
+                </td>
+                <td>
+                    defines a paragrapgh. 
+                </td>
+                <td>
+                    <p>this is a paragraph</p>
+                    <p>this is another paragraph</p>
+                    <p>and here is a 3rd paragraph</p>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;param&gt;
+                </td>
+                <td>
+                    defines a paramerter for an object. 
+                </td>
+                <td>
+                    this one will be covered more in object at a later time as there are a lot of values for this one. 
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;picture&gt;
+                </td>
+                <td>
+                    defines a container for multiple picture elements. 
+                </td>
+                <td>
+                    (add image here or sample code)
+                </td>
+            </tr>
+
 
 
         </table> 
