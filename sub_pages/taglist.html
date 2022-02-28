@@ -1425,6 +1425,226 @@
                 </td>
             </tr>
 
+            <tr class="white">
+                <td>
+                    &lt;svg&gt;
+                </td>
+                <td>
+                    defines a container for an svg (scalable vector graphic)
+                </td>
+                <td>
+                    <svg src=""> </svg> add svg of logo here
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;table&gt;
+                </td>
+                <td>
+                    Defines a table element. this entire webpage is an example of a table, but just for fun lets put a table inside of our table. 
+                </td>
+                <td>
+
+                    <div>
+
+                    <style>
+                        table, th, td {
+                          border: 1px solid black;
+                        }
+                    </style>
+
+                    <table> 
+
+                    <thead>
+                        <th colspan="2">this header uses colspan to combine 2 columns</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                row 1 collumn 1
+                            </td>
+                            <td>
+                                Row 1 collumn 2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Row 2 collumn 1
+                            </td>
+                            <td>
+                                Row 2 collumn 2
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                footer collumn 1
+                            </td>
+                            <td>
+                                footer collumn 2
+                            </td>
+                        </tr>
+                    </tfoot>
+                    </table>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;tbody&gt; <br/>
+                    &lt;td&gt; <br/>
+                    &lt;tr&gt; <br/>
+                    &lt;th&gt; <br/>
+                    &lt;tfooter&gt; <br/>
+                    &lt;thead&gt; 
+                </td>
+                <td>
+                    these are all the table excusive tags, see the example for table to see how they all work together. 
+                </td>
+                <td>
+                    see table
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;template&gt;
+                </td>
+                <td>
+                    defines a container for content that should be hidden when the page loads, this can be useful for when you are using the "show content" attribute in JS. 
+                </td>
+                <td>
+                    <button  type="button"  onclick="showContent(template)">Show hidden content</button>
+
+                    <template>
+                    <h2>dragon</h2>
+                    <img src="../assets/Images/Dragon_1.png" width="200" height="200">
+                    </template>
+
+                    this one i dont understand how to make it work entirely just yet. so this one is flagged for review.
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;time&gt;
+                </td>
+                <td>
+                    defines a specific time or date-time. It doesnt do anything to formatting, but it is a semantic element that can be added to aid in the upkeep of accesibility standards, 
+                </td>
+                <td>
+                    At the time of writing, it was <time>12:38pm</time> on 2-28-22.
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;title&gt;
+                </td>
+                <td>
+                    The title tag always goes in the head of the document and is used to literally title the page. This is what will determine what will be displayed a the title of your page in your browser tab. 
+                </td>
+                <td>
+                    insert image of code snippet here
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;track&gt;
+                </td>
+                <td>
+                    Used to define tracks for media elements, audio/video.
+                </td>
+                <td>
+                    insert code snippet and embeded autio track here
+                </td>
+            </tr>
+            
+            <tr class="grey">
+                <td>
+                    &lt;u&gt;
+                </td>
+                <td>
+                    underlines any text that is within its opening and closing brakets, similar to how &lt;b&gt; and &lt;i&gt; work.                 </td>
+                <td>
+                    an exmaple of <u>underlined text or text that is within the &lt;u&gt; tag.</u> - here we are back to normal text. 
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;ul&gt;
+                </td>
+                <td>
+                    An unordered list. very similar to an ordered list, accept it uses bullet points instead of individual identifiers like numbers.
+                </td>
+                <td>
+                    <ul>
+                        <li>this is an unordered list</li>
+                        <li>it uses the same formatting tags like &lt;li&gt; to make new lines </li>
+                        <li>you can still nest lists within lists if needed</li>
+                        <li>and the syntax is the same as an ordered list.</li>
+                        <li>for a more detailed example of lists see &lt;ol&gt;</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;var&gt;
+                </td>
+                <td>
+                    used to define a variable, unlike in JavaScript and CSS this tag only labels a piece of text as a variable, 
+                    as in a variable in an a mathematical equasion. Its used as a semantic identifier would be another way to put it, 
+                    just like you could label a section a div but its better to label it a section, you could just just italisize variables written out in an equasion but its better to tag them as &lt;var&gt; elements for screen readers. 
+                </td>
+                <td>
+                    <div id="equation">
+                        <p>
+                            The basic formula for calculating the slope intercept of a straight line on a graph is <var>y</var>=<var>m</var><var>x</var>+<var>b</var>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="white">
+                <td>
+                    &lt;video&gt;
+                </td>
+                <td>
+                    Used to embed a video element into your document. 
+                </td>
+                <td>
+                    (include code snippet of syntax and embed a random video)
+                </td>
+            </tr>
+
+            <tr class="grey">
+                <td>
+                    &lt;wbr&gt;
+                </td>
+                <td>
+                    WBR stands for word break opportunity, basically its a possible line break, wich can be useful for formatting, especially really lonng words that are too long to be displayed in one line. as the browser window shrinks the browser will make the content fit the available space, and this can often times make for some very weird formatting issues (unless you properly deploy the use of media querries) but even with media querries this can still be applied if you want a word to break up in a very specific way when the broser is si shrunk down. 
+                    <br/>
+                    Note: this is a non closing tag, meaning the sintax is &lt;wbr&gt;, nothing else, no closing tag, no slash like you normally have in a self closing tag like br, just wbr.
+                </td>
+                <td>
+                    So<wbr>-in<wbr>-this<wbr>-example<wbr>-the<wbr>-HTML<wbr>-Document<wbr>-is<wbr>-going<wbr>-to<wbr>-interperate<wbr>-this<wbr>-entire<wbr>-segment<wbr>-of-<wbr>text<wbr>-as<wbr>-one<wbr>-very<wbr>-long<wbr>-line<wbr>-o<wbr>text<wbr>-this<wbr>-section<wbr>-has<wbr>-wbr<wbr>tags.
+                    <br/>
+                    this one however, does not:
+                    <br/>
+                    So-in-this-example-the-HTML-Document-is-going-to-interperate-this-entire-segment-of-text-as-one-very-long-word-or-string-of-text. 
+                    <br/>
+                    Shrink the browser window to see the difference. the top line has &lt;wbr&gt; tags between every word, and the second line does not. 
+                </td>
+            </tr>
+            
+            
+
         </table> 
 
     </body>
