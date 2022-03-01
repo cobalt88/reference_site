@@ -37,7 +37,7 @@ Include links to documentation for more detailed information on each attribute.
 
 ### What Is The DOM? - Unassigned
 
-Explain DOM (Document Object Mode)
+Explain DOM (Document Object Model)
 talk about what it is, why it is important, what it does, 
 
 ### About The Contributors - Unassigned
