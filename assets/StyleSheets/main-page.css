@@ -74,3 +74,9 @@ address {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media screen and (max-width: 1000px) {
+    nav {
+        display: grid;
+    }
+}
