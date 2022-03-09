@@ -1,4 +1,7 @@
-header {
+body {
+    margin: auto;
+}
+header h1{
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
@@ -12,24 +15,32 @@ header {
 nav {
     padding: 20px;
     margin: auto;
-    background-color: lightgrey;
+    background-color: rgb(119, 2, 119);
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
 }
 
-
-nav button {
+nav a {
     display: inline-block;
     margin: 15px 0 15px 0;
     border: none;
     text-align: center;
-    background-color: rgb(119, 2, 119);
-    color: #fffafa;
     padding: 10px;
     margin: 0 15px 0 15px;
     cursor: pointer;
 } 
+
+nav a:hover {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.navbutton {
+    color: goldenrod;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 #construction {
     max-width: 1300px;
@@ -47,20 +58,19 @@ body h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
-  footer {
-      margin: 0 auto;
-      padding: 30px;
-      border: solid 3px rgb(255, 212, 23);
-      max-width: 500px;
-      background-color: rgb(119, 2, 119);
-  }
+footer {
+    margin: 0 auto;
+    padding: 30px;
+    border: solid 3px rgb(255, 212, 23);
+    max-width: 500px;
+    background-color: rgb(119, 2, 119);
+}
 
-  address {
+address {
     color: goldenrod;
     text-align: center;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
+}
