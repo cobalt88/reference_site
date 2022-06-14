@@ -1,7 +1,7 @@
 # Project Reference Site
 https://cobalt88.github.io/reference_site/
 
-## Purpose
+## The Intended Goal
 
 Project reference site for all things HTML CSS and JavaScript,
 
@@ -57,16 +57,39 @@ go over the differences between widows vs mac
 
 To be dine dead last. this page is gojng to be broken up into segments and divied out to contributors ti develop as we find out what other sections we want to add. 
 
-### In Line Java Script - Unassigned
+## JavaScript - this ones got a lot of chunks
+------
 
-This one we need more information for. theres a lot of do's and dont's that could be touched on here. so this could be a much later type thing
+### In Line JavaScript (in the HTML) - Unassigned
 
-### External JavaScript - Unassigned
+This section should be aimed more at a "why you shouldnt do this" kind of thing. Theres really no need for it with all the other options out there. 
 
-Go over the syntax, lots of examples,
+### External Vanilla JavaScript - Unassigned
 
-## sub sections of External JS - Unassigned
+Go over the overall syntax of: 
+* functions
+* variables - var, const, let
+* loops
+* arrays
+* conditionals
+* anything else you might like to add a core fundamental part of vanilla javascript
 
-Angular 
-React
+provide lots of examples.
+
+### node.js - Unassigned
+
+Touch on hte following topics, but keep it simple, we can build separate pages for more detailed information on these:
+* what is node.js
+* why do we have it
+* how to install
+* how to use
+* NPM
+* build good transition into express
+
+### Express.js - unassigned
+
+#### closing notes:
+------
+
+please keep in mind the purpose of this site is to privide vanilla examples of how the core code of website development works. So do your best to not dynamically generate everything with JS and try to keep the styling contained to a hard coded CSS file on the core fundamental pages that are clean, easy to follow, do not include CSS frameworks. Once the core of it is all complete we can begin building out the more advnaced pages that go into modern web development, however that is not the primary goal of this project. 
 
