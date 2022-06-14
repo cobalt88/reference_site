@@ -22,13 +22,14 @@ nav {
 nav button {
     display: inline-block;
     margin: 15px 0 15px 0;
-    border: none;
+    border: 1px, goldenrod;
     text-align: center;
     background-color: rgb(119, 2, 119);
     color: #fffafa;
     padding: 10px;
     margin: 0 15px 0 15px;
     cursor: pointer;
+    border-radius: 5px;
 } 
 
 #construction {
